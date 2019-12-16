@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <title>Image</title>
+    <body>
+        <img id="pic" onMouseOut="myfunction2()" onMouseOver="myfunction1()" src="img1.jpg">
+        <script>
+            function myfunction1(){
+                document.getElementById("pic").src="img2.jpg";
+            }
+            function myfunction2(){
+                document.getElementById("pic").src="img1.jpg";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>slide show</title>
+        <script>
+            var x = 1;
+            function myfunction(){
+                if(x==1){
+                    document.getElementById("img").src="img2.jpg";
+                    x=2;
+                }
+                else if(x==2){
+                    document.getElementById("img").src="process.svg";
+                    x=3;
+                }
+                else if(x==3){
+                    document.getElementById("img").src="recovery.svg";
+                    x=4;
+                }
+                else if(x==4){
+                    document.getElementById("img").src="people-1.svg";
+                    x=5;
+                }
+                else{
+                    document.getElementById("img").src="img1.jpg";
+                    x=1;
+                }
+            }
+        </script>
+    </head>
+    <body>
+        <img id="img" onclick="myfunction()" src="img1.jpg" width=300 height="auto">
+    </body>
+</html>

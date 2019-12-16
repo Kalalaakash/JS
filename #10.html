@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>4th Image</title>
+    </head>
+    <body>
+        <img id="img1" src="img1.jpg" width=200 height="auto">
+        <img id="img2" src="img2.jpg" width=200 height="auto">
+        <img id="img3" src="process.svg">
+        <img id="img4" onmouseover="myfunction()" onmouseout="myf()" src="security-2.svg">
+        <script>
+            function myfunction(){
+                document.getElementById("img1").src="recovery.svg";
+                document.getElementById("img2").src="recovery.svg";
+                document.getElementById("img3").src="recovery.svg";
+            }
+            function myf(){
+                document.getElementById("img1").src="img1.jpg";
+                document.getElementById("img2").src="img2.jpg";
+                document.getElementById("img3").src="process.svg";
+            }
+        </script>
+    </body>
+</html>

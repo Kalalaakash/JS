@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <title>Images</title>
+    <body>
+        <img id="img1" onmouseover="myfunction1()" onmouseout="myfunction4()" src="img1.jpg" width= 200 height="auto">
+        <img id="img2" onmouseover="myfunction2()" onmouseout="myfunction5()" src="img2.jpg" width= 200 height="auto">
+        <img id="img3" onmouseover="myfunction3()" onmouseout="myfunction6()" src="process.svg">
+        <script>
+            function myfunction1(){
+                document.getElementById("img1").src = "people-1.svg";
+            }
+            function myfunction2(){
+                document.getElementById("img2").src = "recovery.svg";
+            }
+            function myfunction3(){
+                document.getElementById("img3").src = "security-2.svg";
+            }
+            function myfunction4(){
+                document.getElementById("img1").src = "img1.jpg";
+            }
+            function myfunction5(){
+                document.getElementById("img2").src = "img2.jpg";
+            }
+            function myfunction6(){
+                document.getElementById("img3").src = "process.svg";
+            }
+        </script>
+    </body>
+</html>
